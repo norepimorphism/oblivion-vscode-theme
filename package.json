@@ -1,0 +1,23 @@
+{
+    "name": "oblivion-gedit-color-theme",
+    "version": "0.0.1",
+    "publisher": "norepimorhism",
+    "engines": { "vscode": "^1.74.2" },
+    "license": "SEE LICENSE FILE",
+    "displayName": "Oblivion GEdit Color Theme",
+    "description": "A simple color theme with green accents",
+    "categories": ["Themes"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/norepimorphism/oblivion-vscode-theme"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Oblivion from GEdit",
+                "uiTheme": "vs-dark",
+                "path": "./themes/oblivion-color-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "type": "dark",
+    "colors": {
+        "editor.foreground": "#d3d7cf",
+        "editor.background": "#2e3436",
+        "editor.lineHighlightBackground": "#555753"    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": "comment",
+            "settings": { "foreground": "#888a85" }
+        },
+        {
+            "name": "Control flow keywords and preprocessor directives",
+            "scope": [
+                "keyword.control",
+                "meta.preprocessor"
+            ],
+            "settings": { "foreground": "#ad7fa8" }
+        },
+        {
+            "name": "Literals",
+            "scope": [
+                "constant",
+                "string"
+            ],
+            "settings": { "foreground": "#fce94f" }
+        },
+        {
+            "name": "Storage modifiers and primitive types",
+            "scope": [
+                "storage.modifier.inline",
+                "storage.modifier.static",
+                "storage.type.primitive"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#8ae234"
+            }
+        },
+        {
+            "name": "Classes, structs, and namespaces",
+            "scope": [
+                "storage.type.class",
+                "storage.type.namespace",
+                "storage.type.struct"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#eeeeec"
+            }
+        }
+    ]
+}
